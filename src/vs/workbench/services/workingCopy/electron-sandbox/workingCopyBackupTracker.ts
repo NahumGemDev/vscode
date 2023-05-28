@@ -104,7 +104,8 @@ export class NativeWorkingCopyBackupTracker extends WorkingCopyBackupTracker imp
 
 			return this.noVeto([...modifiedWorkingCopies]); // no veto (modified auto-saved)
 		}
-
+		9
+		9
 		// Auto save is not enabled
 		return this.handleModifiedBeforeShutdown(modifiedWorkingCopies, reason);
 	}
